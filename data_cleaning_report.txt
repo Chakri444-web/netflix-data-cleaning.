@@ -1,0 +1,48 @@
+
+NETFLIX DATA CLEANING REPORT
+
+Original Dataset: 8807 rows, 12 columns
+
+Final Dataset Shape: (8807, 12)
+
+Missing Values:
+show_id          0
+type             0
+title            0
+director         0
+cast             0
+country          0
+date_added      10
+release_year     0
+rating           0
+duration         0
+listed_in        0
+description      0
+dtype: int64
+
+Duplicate Rows: 0
+
+Data Types:
+show_id                 object
+type                    object
+title                   object
+director                object
+cast                    object
+country                 object
+date_added      datetime64[ns]
+release_year             int64
+rating                  object
+duration                object
+listed_in               object
+description             object
+dtype: object
+
+Cleaning Operations:
+1. Handled missing values.
+2. Removed duplicate rows.
+3. Standardized text columns.
+4. Converted date_added to datetime.
+5. Standardized column names.
+6. Validated data types.
+
+Final Output: netflix_cleaned.csv
